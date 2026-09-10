@@ -2,11 +2,35 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbzMpvgtQLDdAvZxLSRlzOh7VLgk1fNtrekIIOMghjPdKncJNFsR_0XXrhPLtbd6Io_6/exec">
-    <title>CEEINFOR Mãe Stella</title>
-    <script>
-        window.location.replace("https://script.google.com/macros/s/AKfycbzMpvgtQLDdAvZxLSRlzOh7VLgk1fNtrekIIOMghjPdKncJNFsR_0XXrhPLtbd6Io_6/exec");
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEEINFOR - Centro Estadual de Educação, Inovação e Formação da Bahia Mãe Stella</title>
+    <link rel="icon" href="https://drive.google.com/thumbnail?sz=w1000&id=1KUYGzSBIPFh-BkpE4UsCDIK1GKGpYQTU">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Corta o que estiver fora da área útil */
+            background-color: #ffffff;
+        }
+
+        /* Desloca o iframe para cima para esconder o aviso do Google fora da tela */
+        iframe {
+            border: none;
+            width: 100%;
+            height: calc(100% + 45px); /* Compensa os pixels cortados */
+            margin-top: -45px;          /* Empurra o banner para fora da visão */
+            display: block;
+        }
+    </style>
 </head>
-<body></body>
+<body>
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbzMpvgtQLDdAvZxLSRlzOh7VLgk1fNtrekIIOMghjPdKncJNFsR_0XXrhPLtbd6Io_6/exec"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</body>
 </html>
